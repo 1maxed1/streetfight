@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+#container{
+    position: relative;
+    display: inline-block;
+}
+
+#smaller-div{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+}
+
+#parent-div{
+    position: relative;
+    height: 30px;
+    width: 100%;
+}
+
+/*Health Bars*/
+
+#player-health{
+    background-color: yellow;
+    height: 30px;
+    width: 100%;
+}
+
+#absolute-div{
+    position: absolute;
+    background: blue;
+}
+
+#enemy-health{
+    background-color: yellow;
+    height: 30px;
+}
+
+/*Timer*/
+
+#timer{
+    background-color: red;
+    height:  50px;
+    width: 100px;
+}
